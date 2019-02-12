@@ -4,6 +4,8 @@ Feedforward WaveNet for black-box virtual analog modeling. This code is related 
 
 A real-time implementation of the model built using JUCE. The code can be built as a standalone audio application or as an VST3, AU or AAX etc. plugin.
 
+Audio samples are available on the [demopage](http://research.spa.aalto.fi/publications/papers/smc19-black-box/).
+
 ## Getting Started
 
 ### Installing
