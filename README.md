@@ -1,0 +1,28 @@
+# WaveNetVA
+
+Feedforward WaveNet for black-box virtual analog modeling. This code is related to our SMC 2019 paper: https://link-to-pre.print
+
+A real-time implementation of the model built using JUCE. The code can be built as a standalone audio application or as an VST3, AU or AAX etc. plugin.
+
+## Getting Started
+
+### Installing
+
+* Clone the repo.
+* Download and install [JUCE](https://juce.com/)
+  * The software has been tested with Juce version 5.4.2
+* Download [Eigen](http://eigen.tuxfamily.org)
+  * Extract the Eigen folder to your home directory.
+  * The software has been tested with Eigen version 3.3.7
+* Open WaveNetVA.jucer file with Projucer
+* Open and build project in XCode or Visual Studio.
+
+### Loading trained models
+
+The trained models are stored as json files. The pre-trained models of the Ibanez Tube Screamer, Boss DS-1 and Electro-Harmonix Big Muff Pi described in the paper are included in the [Models](Models) directory.
+
+Tensorflow code for training models and saving them to json files may be added later.
+
+## License
+This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
+
