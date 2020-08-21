@@ -19,10 +19,18 @@ Audio samples are available on the [demo page](http://research.spa.aalto.fi/publ
 * Open WaveNetVA.jucer file with Projucer
   * Add the Eigen folder to "Header Search Paths" in Exporters -> Debug/Release
   * Open and build project in XCode or Visual Studio.
+  * Remember to switch the build target to Release (using all optimizations enables realtime use)
 
 ### Loading trained models
 
 The trained models are stored as json files. The pre-trained models of the Ibanez Tube Screamer, Boss DS-1 and Electro-Harmonix Big Muff Pi described in the paper are included in the [Models](Models) directory.
+
+### Training new models
+
+Although we're currently unable to release our original training scripts, the amazing people on the Internet have reproduced the training in PyTorch and even created a compatible model exporter.
+
+Check the following repository for more information
+https://github.com/keyth72/pedalnet
 
 ## License
 This project is licensed under the Apache License, Version 2.0 - see the [LICENSE](LICENSE) file for details.
